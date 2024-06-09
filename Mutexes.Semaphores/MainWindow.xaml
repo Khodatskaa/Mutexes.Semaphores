@@ -7,6 +7,14 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
 
+        <ListBox x:Name="NumberListBox" Grid.Row="0" Margin="10"/>
+
+        <Button Grid.Row="1" Content="Start Threads" HorizontalAlignment="Center" Margin="10" Click="StartThreads_Click"/>
+        <Label x:Name="StatusLabel" Grid.Row="1" HorizontalAlignment="Center"/>
     </Grid>
 </Window>
