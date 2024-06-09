@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Welcome to Semaphore Window Module!" FontSize="24" FontWeight="Bold" Margin="0 0 0 20"/>
+            <Button Content="Click Me" Width="100" Height="30" Click="Button_Click"/>
+        </StackPanel>
     </Grid>
 </Window>
